@@ -61,11 +61,21 @@ pip install opencv-python numpy
 
 ---
 
-## 📥 Dataset Setup
+## 📥 Dataset
 
-Download the **KITTI Raw Dataset** (not odometry dataset):
+Download the **KITTI Raw Dataset** from the official website:
 
-Place it like this:
+👉 [KITTI Raw Dataset (Camera + IMU)](http://www.cvlibs.net/datasets/kitti/raw_data.php)
+
+---
+
+### Required files
+
+Download and extract a sequence such as:
+
+* `2011_09_26_drive_0001_sync`
+
+Make sure your folder structure looks like:
 
 ```
 data/
